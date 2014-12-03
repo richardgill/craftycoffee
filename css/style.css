@@ -7718,7 +7718,6 @@ form select {
 }
 .navbar.navbar-inverse .main-nav > li > a {
   color: #202020;
-  text-transform: uppercase;
   -moz-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
