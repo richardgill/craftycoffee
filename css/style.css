@@ -7809,7 +7809,7 @@ form select {
   -webkit-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 20px;
   padding: 15px 7px;
 }
@@ -7921,7 +7921,7 @@ form select {
 .navbar .header-slider {
   float: left;
   width: 100%;
-  margin-top: -51px;
+  margin-top: -101px;
   position: relative;
   z-index: 1;
 }
