@@ -1607,7 +1607,7 @@ form {
 	display: inline-block;
 	padding: 0;
 	margin: 0;
-	margin-bottom: 65px;
+
 	list-style: none;
 	li {
 		float: left;
@@ -1622,6 +1622,19 @@ form {
 			line-height: 20px;
 			padding: 5px 5px;
 		}
+	}
+}
+@media (min-width:768px)
+{
+	.footer-social {
+		margin-bottom: 65px;
+	}
+}
+
+@media (max-width:768px)
+{
+	.footer-social {
+		margin-left: -12px;
 	}
 }
 .team {
@@ -3223,5 +3236,12 @@ form {
 		}
 	}
 }
+
+@media (min-width:768px)
+{
+  .text-right-responsive {text-align:right;}
+  .text-left-responsive {text-align:left;}
+}  
+
 @import "media-queries.less";
 @import "isotope.less";
