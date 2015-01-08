@@ -7978,6 +7978,48 @@ form select {
   font-weight: 400;
   line-height: 24px;
 }
+.statement.white {
+  padding: 70px 0;
+  margin-bottom: 40px;
+}
+.statement.white h2 {
+  float: left;
+  width: 100%;
+  color: #202020;
+  font-family: "Open Sans";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 40px;
+  padding: 0 130px;
+}
+.statement.white .content {
+  float: left;
+  width: 100%;
+  color: #828282;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 50px;
+  padding: 0 130px;
+}
+.statement.white .btn-statement {
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  padding: 15px 25px;
+}
+.statement.white .btn-statement.btn-blue {
+  background: #008ce7;
+}
+.statement.white .btn-statement.btn-green {
+  background: #5cd117;
+}
 .statement.grey {
   background: #ededed;
   padding: 70px 0;
