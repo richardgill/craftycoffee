@@ -1,1 +1,1 @@
-bundle install && bundle exec jekyll serve --watch
+bundle install && bundle exec jekyll serve --watch -P $PORT -H $IP
